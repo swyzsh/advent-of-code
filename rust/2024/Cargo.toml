@@ -1,0 +1,10 @@
+[package]
+name = "aoc-rust-2024"
+edition = "2024"
+description = "Advent of Code Rust 2024"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]

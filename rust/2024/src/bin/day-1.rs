@@ -1,3 +1,4 @@
+// --- Day 1: Historian Hysteria ---
 use std::cmp;
 use std::fs;
 
@@ -95,7 +96,7 @@ fn calc_total_similarity(arr: &Vec<i32>) -> i32 {
 }
 
 fn main() {
-  let file_input = fs::read_to_string("./input.txt").expect("Failed to read the file!");
+  let file_input = fs::read_to_string("inputs/day-1.txt").expect("Failed to read the file!");
   let arr_input: Vec<i32> = file_input
     .trim()
     .lines()

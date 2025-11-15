@@ -1,3 +1,4 @@
+// --- Day 2: Red-Nosed Reports ---
 use std::fs;
 
 fn check_safe(arr: &Vec<Vec<i32>>) -> i32 {
@@ -79,8 +80,7 @@ fn is_report_safe(report: &Vec<i32>) -> bool {
 }
 
 fn main() {
-  // let file_input = fs::read_to_string("./test-input.txt").expect("Failed to read the file!");
-  let file_input = fs::read_to_string("./puzzle-input.txt").expect("Failed to read the file!");
+  let file_input = fs::read_to_string("inputs/day-2.txt").expect("Failed to read the file!");
   let puzzle_input: Vec<Vec<i32>> = file_input
     .trim()
     .lines()

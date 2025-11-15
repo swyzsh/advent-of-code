@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "day-2-red-nosed-reports"
-version = "0.1.0"
+name = "aoc-rust-2024"
+version = "0.0.0"

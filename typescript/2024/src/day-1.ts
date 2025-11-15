@@ -1,3 +1,4 @@
+// --- Day 1: Historian Hysteria ---
 import { readFileSync } from "fs";
 
 function sortBySides(array: number[]) {
@@ -91,7 +92,7 @@ function calcTotalSimilarity(arr: number[]): number {
 }
 
 // const arrInput: number[] = [3, 4, 4, 3, 2, 5, 1, 3, 3, 9, 3, 3];
-const arrInput = readFileSync("./input.txt", "utf-8")
+const arrInput = readFileSync("./src/utils/day-1-input.txt", "utf-8")
   .trim()
   .split("\n")
   .flatMap((line) =>

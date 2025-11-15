@@ -14,6 +14,9 @@ yarn-error.log*
 
 # JS/TS
 node_modules/
+dist/
+*.d.ts
+.tsbuildinfo
 
 # Rust
 target/
